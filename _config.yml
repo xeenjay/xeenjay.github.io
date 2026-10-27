@@ -45,6 +45,10 @@ auto_dark_mode: true
 # You can use this option to choose between Serif or Sans Serif fonts.
 font: "Serif" # or "Sans Serif"
 
+# Generates sitemap.xml (and robots.txt pointing to it) for search engines.
+plugins:
+  - jekyll-sitemap
+
 # The following files will be removed from the generated website.
 exclude:
   - Gemfile
