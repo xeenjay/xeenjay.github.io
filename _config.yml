@@ -10,7 +10,7 @@ email_icon: true # show an envelope icon that opens the mail app
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
-keywords: Xinjie Huang, 黄鑫杰, Johns Hopkins University, computer vision, video generation, 3D vision, world models
+keywords: Xinjie Huang, 黄鑫杰, Johns Hopkins University, computer vision, video generation, 3D vision, world models, embodied AI
 description: Xinjie Huang is an M.S.E. student in Computer Science at Johns Hopkins University, working on video generation and 3D vision.
 # If you move to a custom domain, update both `url` and `canonical`.
 url: https://xeenjay.github.io
