@@ -44,8 +44,15 @@
         {% endif %}
 
         <h1>{{ site.title }}</h1>
-        {% if site.pronunciation %}
-        <p class="pronunciation">(pronounced <em>{{ site.pronunciation }}</em>)</p>
+        {% if site.native_name or site.pronunciation %}
+        <div class="name-notes">
+          {% if site.native_name %}
+          <div class="native-name" lang="zh-CN">{{ site.native_name }}</div>
+          {% endif %}
+          {% if site.pronunciation %}
+          <div class="pronunciation">(pronounced <em>{{ site.pronunciation }}</em>)</div>
+          {% endif %}
+        </div>
         {% endif %}
 
         {% if site.position %}

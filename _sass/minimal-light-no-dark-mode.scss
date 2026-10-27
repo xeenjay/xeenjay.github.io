@@ -519,8 +519,16 @@ footer {
 
 /* Site-specific additions */
 
-.pronunciation {
+.name-notes {
   margin: -14px 0 14px;
+}
+
+.native-name {
+  font-size: 1.15rem;
+  letter-spacing: 0.1em;
+}
+
+.pronunciation {
   font-size: 0.95rem;
   color: #828282;
 }
