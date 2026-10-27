@@ -14,12 +14,11 @@
 
 main:
 
-  - title: World Rerenderer
-    meta: "Second author, with Youcan Xu · Advisor: Prof. Jun Xiao, DCD Lab, Zhejiang University"
-    date: Sep. 2025 – Aug. 2026
+  - title: "World Rerenderer: Real-Time Camera-Controlled World Re-rendering via Video Diffusion Transformers"
+    authors: Youcan Xu, <strong>Xinjie Huang</strong>, Jiaxin Shi, Hengye Lyu, Zhen Wang, Jun Xiao, Long Chen
     status: Under review
     badge: Under Review
-    description: Synchronized novel-view video generation for streaming source videos, with interactive camera control.
+    description: A streaming video world model that re-renders a live source video along user-controlled camera trajectories in real time, with long-horizon stability.
     image: ./assets/img/research/world-rerenderer.png
 
   - title: Task-Incremental Learning for 3D Point Clouds
