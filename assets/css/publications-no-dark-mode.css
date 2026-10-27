@@ -76,15 +76,11 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 
 /* Thumbnails float up and zoom on hover (mouse devices only). */
 @media (hover: hover) and (pointer: fine) {
-  .publications ol.bibliography li .abbr { transition: transform 0.25s ease; z-index: 1; transform-origin: left center; }
-  .publications ol.bibliography li .abbr:hover { transform: scale(1.2); z-index: 10; }
+  /* The image sits 20px from the left and 10px from the right of .abbr, 5px from the top: zoom around its centre. */
+  .publications ol.bibliography li .abbr { transition: transform 0.25s ease; z-index: 1; transform-origin: calc(50% + 5px) calc(50% + 2.5px); }
+  .publications ol.bibliography li .abbr:hover { transform: scale(1.1); z-index: 10; }
   .publications ol.bibliography li .abbr .teaser { transition: box-shadow 0.25s ease; }
   .publications ol.bibliography li .abbr:hover .teaser { box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35); }
-}
-
-/* With the sidebar layout there is empty space left of the thumbnail, so grow mostly into it. */
-@media (hover: hover) and (pointer: fine) and (min-width: 961px) {
-  .publications ol.bibliography li .abbr { transform-origin: 85% center; }
 }
 
 @media (prefers-reduced-motion: reduce) {
