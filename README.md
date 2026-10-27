@@ -11,7 +11,7 @@ Xinjie Huang 的个人学术主页：https://xeenjay.github.io
 | 名字、发音、职位、学校、邮箱、GitHub 等链接 | `_config.yml` |
 | About Me、Research Interests、Experience、Education | `index.md` |
 | 研究项目列表（标题、导师、时间、简介、缩略图、链接） | `_data/research.yml` |
-| 头像 | `assets/img/avatar.png` |
+| 头像 | `assets/img/avatar.jpg` |
 | 研究项目缩略图 | `assets/img/research/` |
 
 在 GitHub 网页上点开文件，再点右上角的铅笔图标就能直接改，改完点 **Commit changes**，一两分钟后网站会自动更新。
@@ -19,8 +19,8 @@ Xinjie Huang 的个人学术主页：https://xeenjay.github.io
 ## 换照片和缩略图
 
 1. 在仓库页面打开 `assets/img`（头像）或 `assets/img/research`（缩略图）文件夹。
-2. 点 **Add file → Upload files**，上传图片。文件名和原来的一样就会直接覆盖，比如头像就命名为 `avatar.png`。
-3. 如果文件名不一样（比如上传的是 `.jpg` 或 `.gif`），记得同步修改 `_config.yml` 里的 `avatar:`，或 `_data/research.yml` 里对应项目的 `image:`。
+2. 点 **Add file → Upload files**，上传图片。文件名和原来的一样就会直接覆盖，比如头像就命名为 `avatar.jpg`。
+3. 如果文件名不一样（比如上传的是 `.png` 或 `.gif`），记得同步修改 `_config.yml` 里的 `avatar:`，或 `_data/research.yml` 里对应项目的 `image:`。
 
 头像建议用正方形照片，会自动裁成圆形。缩略图会裁成约 270 × 123 的横幅，所以宽图效果最好。
 
