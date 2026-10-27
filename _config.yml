@@ -2,7 +2,7 @@
 title: Xinjie Huang
 native_name: 黄鑫杰
 # pronunciation: Xeen-Jay
-position: M.S.E. Student in Computer Science
+position: M.S.E. Student in CS
 affiliation: Johns Hopkins University
 affiliation_link: https://www.cs.jhu.edu/
 email: xhuan130 [at] jh [dot] edu
@@ -12,6 +12,8 @@ email_icon: true # show an envelope icon that opens the mail app
 # The following information is used to improve the website traffic from search engines, e.g., Google.
 keywords: Xinjie Huang, 黄鑫杰, Johns Hopkins University, computer vision, video generation, 3D vision, world models
 description: Xinjie Huang is an M.S.E. student in Computer Science at Johns Hopkins University, working on video generation and 3D vision.
+# If you move to a custom domain, update both `url` and `canonical`.
+url: https://xeenjay.github.io
 canonical: https://xeenjay.github.io/
 
 # Links
@@ -28,6 +30,8 @@ rednote: https://www.xiaohongshu.com/user/profile/62a56497000000001b02537d
 avatar: ./assets/img/avatar.jpg
 favicon: ./assets/img/favicon.png
 favicon_dark: ./assets/img/favicon-dark.png
+# Preview card shown when the link is shared (1200 x 630).
+og_image: /assets/img/og-card.jpg
 
 # Footnote
 # You may use the option to disable the footnote, "Powered by Jekyll and Minimal Light theme."

@@ -13,6 +13,7 @@ Xinjie Huang 的个人学术主页：https://xeenjay.github.io
 | 研究项目列表（标题、导师、时间、简介、缩略图、链接） | `_data/research.yml` |
 | 头像 | `assets/img/avatar.jpg` |
 | 研究项目缩略图 | `assets/img/research/` |
+| 链接分享卡片（发到微信、Slack、Twitter 时显示的图） | `assets/img/og-card.jpg`，1200 × 630。名字、职位或头像变了要重新做一张 |
 
 在 GitHub 网页上点开文件，再点右上角的铅笔图标就能直接改，改完点 **Commit changes**，一两分钟后网站会自动更新。
 
