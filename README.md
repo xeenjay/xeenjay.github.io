@@ -22,7 +22,21 @@ Xinjie Huang 的个人学术主页：https://xeenjay.github.io
 2. 点 **Add file → Upload files**，上传图片。文件名和原来的一样就会直接覆盖，比如头像就命名为 `avatar.png`。
 3. 如果文件名不一样（比如上传的是 `.jpg` 或 `.gif`），记得同步修改 `_config.yml` 里的 `avatar:`，或 `_data/research.yml` 里对应项目的 `image:`。
 
-头像建议用正方形照片，会自动裁成圆形。缩略图会裁成约 270 × 123 的横幅，所以宽图效果最好。视频生成的结果可以直接用 GIF。
+头像建议用正方形照片，会自动裁成圆形。缩略图会裁成约 270 × 123 的横幅，所以宽图效果最好。
+
+## 用视频当缩略图
+
+视频生成的结果最适合用一小段视频展示。把 MP4 上传到 `assets/img/research/`，然后在 `_data/research.yml` 对应项目下加一行：
+
+```yaml
+    video: ./assets/img/research/world-rerenderer.mp4
+```
+
+视频会静音循环自动播放，加载完成前先显示 `image:` 那张图。建议截 3–6 秒、宽度 540 像素左右、文件控制在 2 MB 以内，否则页面会变慢。用 ffmpeg 压缩的参考命令：
+
+```bash
+ffmpeg -i input.mp4 -t 5 -vf "scale=540:-2" -an -c:v libx264 -crf 28 -movflags +faststart output.mp4
+```
 
 ## 添加论文链接
 

@@ -8,6 +8,8 @@
 #   description: one or two sentences
 #   notes:       highlighted note in red, e.g. "Patent application filed"
 #   image:       thumbnail, about 270 x 123 px (GIF also works)
+#   video:       short MP4 teaser that autoplays muted in a loop instead of
+#                the image; the image is shown while the video loads
 #   pdf / code / page: links, shown as buttons
 
 main:

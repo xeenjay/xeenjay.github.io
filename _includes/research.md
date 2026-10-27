@@ -8,12 +8,16 @@
 <li>
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    {% if link.image %}
+    {% if link.video %}
+    <video class="teaser img-fluid z-depth-1" width="270" height="123" autoplay muted loop playsinline preload="metadata" poster="{{ link.image }}" aria-label="{{ link.title }} preview">
+      <source src="{{ link.video }}" type="video/mp4">
+    </video>
+    {% elsif link.image %}
     <img src="{{ link.image }}" alt="{{ link.title }}" class="teaser img-fluid z-depth-1">
-    {% if link.badge %}
+    {% endif %}
+    {% if link.badge %}{% if link.video or link.image %}
     <abbr class="badge">{{ link.badge }}</abbr>
-    {% endif %}
-    {% endif %}
+    {% endif %}{% endif %}
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
       {% assign title_url = link.pdf | default: link.page | default: link.code %}
