@@ -6,6 +6,7 @@ position: M.S.E. Student in Computer Science
 affiliation: Johns Hopkins University
 affiliation_link: https://www.cs.jhu.edu/
 email: xhuan130 [at] jh [dot] edu
+email_icon: true # show an envelope icon that opens the mail app
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
@@ -20,6 +21,7 @@ canonical: https://xeenjay.github.io/
 github_link: https://github.com/xeenjay
 # linkedin: https://www.linkedin.com/
 # twitter: https://twitter.com/
+rednote: https://www.xiaohongshu.com/user/profile/62a56497000000001b02537d
 
 # Images (e.g., your profile picture and your website's favicon)
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively.
