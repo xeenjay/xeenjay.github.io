@@ -18,9 +18,12 @@ I am a first-year M.S.E. student in Computer Science at [Johns Hopkins Universit
 
 <ul class="entry-list">
   <li>
-    <span class="entry-date">Feb. 2026 – Jul. 2026</span>
-    <strong>LLM Algorithm Engineer Intern</strong>, DingTalk, Alibaba Group<br>
-    Contributed to a wiki-style knowledge system for DingTalk's Wukong agent, which lets the agent query internal enterprise knowledge to answer questions and carry out tasks.
+    <img class="entry-logo" src="./assets/img/logos/alibaba.png" alt="Alibaba Group">
+    <div class="entry-body">
+      <span class="entry-date">Feb. 2026 – Jul. 2026</span>
+      <strong>LLM Algorithm Engineer Intern</strong>, DingTalk, Alibaba Group<br>
+      Contributed to a wiki-style knowledge system for DingTalk's Wukong agent, which lets the agent query internal enterprise knowledge to answer questions and carry out tasks.
+    </div>
   </li>
 </ul>
 
@@ -28,18 +31,27 @@ I am a first-year M.S.E. student in Computer Science at [Johns Hopkins Universit
 
 <ul class="entry-list">
   <li>
-    <span class="entry-date">Sep. 2026 – Present</span>
-    <strong>Johns Hopkins University</strong>, Baltimore, MD<br>
-    M.S.E. in Computer Science
+    <img class="entry-logo" src="./assets/img/logos/jhu.png" alt="Johns Hopkins University">
+    <div class="entry-body">
+      <span class="entry-date">Sep. 2026 – Present</span>
+      <strong>Johns Hopkins University</strong>, Baltimore, MD<br>
+      M.S.E. in Computer Science
+    </div>
   </li>
   <li>
-    <span class="entry-date">Jun. 2025 – Sep. 2025</span>
-    <strong>University of California, Irvine</strong><br>
-    UCInspire Summer Program
+    <img class="entry-logo" src="./assets/img/logos/uci.png" alt="University of California, Irvine">
+    <div class="entry-body">
+      <span class="entry-date">Jun. 2025 – Sep. 2025</span>
+      <strong>University of California, Irvine</strong><br>
+      UCInspire Summer Program
+    </div>
   </li>
   <li>
-    <span class="entry-date">2022 – 2026</span>
-    <strong>Zhejiang University</strong><br>
-    B.Eng. in Information Security, College of Computer Science
+    <img class="entry-logo" src="./assets/img/logos/zju.png" alt="Zhejiang University">
+    <div class="entry-body">
+      <span class="entry-date">2022 – 2026</span>
+      <strong>Zhejiang University</strong><br>
+      B.Eng. in Information Security, College of Computer Science
+    </div>
   </li>
 </ul>
