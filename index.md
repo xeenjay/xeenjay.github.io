@@ -6,11 +6,13 @@ layout: homepage
 
 I am a first-year M.S.E. student in Computer Science at [Johns Hopkins University](https://www.jhu.edu/). Previously, I received my B.Eng. in Information Security from the College of Computer Science, [Zhejiang University](https://www.zju.edu.cn/english/), where I worked with Prof. Jun Xiao on novel-view video generation and 3D point cloud learning. In the summer of 2025, I joined the UCInspire Summer Program at [UC Irvine](https://uci.edu/), working with Prof. Xiaohui Xie on 3D Gaussian representations.
 
+**My goal is to build controllable video generation models that understand 3D structure, as a step toward interactive world models that help embodied agents predict and plan in the physical world.**
+
 ## Research Interests
 
 - **Video Generation:** video diffusion models with camera control
 - **3D Vision:** Gaussian splatting, point clouds
-- **World Models**
+- **World Models & Embodied AI:** action-conditioned world models for embodied agents
 
 {% include_relative _includes/research.md %}
 
