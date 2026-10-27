@@ -1,0 +1,46 @@
+# Basic Information
+title: Xinjie Huang
+pronunciation: Xeen-Jay
+position: M.S.E. Student in Computer Science
+affiliation: Johns Hopkins University
+affiliation_link: https://www.cs.jhu.edu/
+email: xhuan130 [at] jh [dot] edu
+
+# Search Engine Optimization (SEO)
+# The following information is used to improve the website traffic from search engines, e.g., Google.
+keywords: Xinjie Huang, Johns Hopkins University, computer vision, video generation, 3D vision, world models
+description: Xinjie Huang is an M.S.E. student in Computer Science at Johns Hopkins University, working on video generation and 3D vision.
+canonical: https://xeenjay.github.io/
+
+# Links
+# If you don't need one of them, you may delete the corresponding line.
+# google_scholar: https://scholar.google.com/
+# cv_link: assets/files/curriculum_vitae.pdf
+github_link: https://github.com/xeenjay
+# linkedin: https://www.linkedin.com/
+# twitter: https://twitter.com/
+
+# Images (e.g., your profile picture and your website's favicon)
+# "favicon" and "favicon_dark" are used for the light and dark modes, respectively.
+avatar: ./assets/img/avatar.png
+favicon: ./assets/img/favicon.png
+favicon_dark: ./assets/img/favicon-dark.png
+
+# Footnote
+# You may use the option to disable the footnote, "Powered by Jekyll and Minimal Light theme."
+enable_footnote: true
+
+# Auto Dark Mode
+# You may use the option to disable the automatic dark theme
+auto_dark_mode: true
+
+# Font
+# You can use this option to choose between Serif or Sans Serif fonts.
+font: "Serif" # or "Sans Serif"
+
+# The following files will be removed from the generated website.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor/

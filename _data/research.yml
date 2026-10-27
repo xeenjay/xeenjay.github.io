@@ -1,0 +1,41 @@
+# Research projects shown on the homepage, newest first.
+# Fields (all optional except title):
+#   authors:     author list, with your own name in <strong></strong>
+#   meta:        lab / advisor / role line
+#   date:        time period
+#   status:      e.g. "Under review"
+#   badge:       short label shown on the thumbnail
+#   description: one or two sentences
+#   notes:       highlighted note in red, e.g. "Patent application filed"
+#   image:       thumbnail, about 270 x 123 px (GIF also works)
+#   pdf / code / page: links, shown as buttons
+
+main:
+
+  - title: World Rerenderer
+    meta: "Second author, with Youcan Xu · Advisor: Prof. Jun Xiao, DCD Lab, Zhejiang University"
+    date: Sep. 2025 – Aug. 2026
+    status: Under review
+    badge: Under Review
+    description: Synchronized novel-view video generation for streaming source videos, with interactive camera control.
+    image: ./assets/img/research/world-rerenderer.png
+
+  - title: Task-Incremental Learning for 3D Point Clouds
+    meta: "Undergraduate thesis · Advisor: Prof. Jun Xiao, Zhejiang University"
+    date: 2025 – 2026
+    badge: B.Eng. Thesis
+    description: Extended Point-In-Context to learn new point cloud tasks sequentially, using LoRA fine-tuning with output-level knowledge distillation.
+    notes: Patent application filed
+    image: ./assets/img/research/point-cloud-til.png
+
+  - title: 3D Gaussian Representation Learning
+    meta: "Xie Lab, UC Irvine · Advisor: Prof. Xiaohui Xie · Mentor: Yuelin (Jackie) Xin"
+    date: Summer 2025
+    description: Explored VAE-based 3D Gaussian representations, with preliminary experiments on point cloud completion using Gaussian embeddings and Point Transformer V3.
+    image: ./assets/img/research/gaussian-representation.png
+
+  - title: Spatial Audio Generation from 360° Video
+    meta: "CAD Lab, Zhejiang University · Advisor: Prof. Zhou Zhao"
+    date: Apr. 2024 – Apr. 2025
+    description: Reproduced experiments from prior work on generating spatial audio from 360° videos.
+    image: ./assets/img/research/spatial-audio.png
