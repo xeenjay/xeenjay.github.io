@@ -7,7 +7,7 @@
 #   badge:       short label shown on the thumbnail
 #   description: one or two sentences
 #   notes:       highlighted note in red, e.g. "Patent application filed"
-#   image:       thumbnail, about 270 x 123 px (GIF also works)
+#   image:       thumbnail, 1080 x 492 px (2x, so it stays sharp when zoomed on hover); GIF also works
 #   video:       short MP4 teaser that autoplays muted in a loop instead of
 #                the image; the image is shown while the video loads
 #   pdf / code / page: links, shown as buttons
@@ -19,7 +19,7 @@ main:
     status: Under review
     badge: Under Review
     description: A streaming video world model that re-renders a live source video along user-controlled camera trajectories in real time, with long-horizon stability.
-    image: ./assets/img/research/world-rerenderer.png
+    image: ./assets/img/research/world-rerenderer.jpg
 
   - title: Task-Incremental Learning for 3D Point Clouds
     meta: "Undergraduate thesis · Advisor: Prof. Jun Xiao, Zhejiang University"
@@ -27,16 +27,16 @@ main:
     badge: B.Eng. Thesis
     description: Extended Point-In-Context to learn new point cloud tasks sequentially, using LoRA fine-tuning with output-level knowledge distillation.
     notes: Patent application filed
-    image: ./assets/img/research/point-cloud-til.png
+    image: ./assets/img/research/point-cloud-til.jpg
 
   - title: 3D Gaussian Representation Learning
     meta: "Xie Lab, UC Irvine · Advisor: Prof. Xiaohui Xie · Mentor: Yuelin (Jackie) Xin"
     date: Summer 2025
     description: Explored VAE-based 3D Gaussian representations, with preliminary experiments on point cloud completion using Gaussian embeddings and Point Transformer V3.
-    image: ./assets/img/research/gaussian-representation.png
+    image: ./assets/img/research/gaussian-representation.jpg
 
   - title: Spatial Audio Generation from 360° Video
     meta: "CAD Lab, Zhejiang University · Advisor: Prof. Zhou Zhao"
     date: Apr. 2024 – Apr. 2025
     description: Reproduced experiments from prior work on generating spatial audio from 360° videos.
-    image: ./assets/img/research/spatial-audio.png
+    image: ./assets/img/research/spatial-audio.jpg

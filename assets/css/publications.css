@@ -80,3 +80,20 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 .publications ol.bibliography li div.abstract.hidden.open { border-color: var(--global-text-color); }
 
 .publications ol.bibliography li .teaser { border-radius: 8px; box-shadow: 3px 3px 6px #888; height: 123px; width: 270px; margin-top: 5px; margin-left: 5px; margin-bottom: 5px; object-fit: cover; }
+
+/* Thumbnails float up and zoom on hover (mouse devices only). */
+@media (hover: hover) and (pointer: fine) {
+  .publications ol.bibliography li .abbr { transition: transform 0.25s ease; z-index: 1; transform-origin: left center; }
+  .publications ol.bibliography li .abbr:hover { transform: scale(1.5); z-index: 10; }
+  .publications ol.bibliography li .abbr .teaser { transition: box-shadow 0.25s ease; }
+  .publications ol.bibliography li .abbr:hover .teaser { box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35); }
+}
+
+/* With the sidebar layout there is empty space left of the thumbnail, so grow mostly into it. */
+@media (hover: hover) and (pointer: fine) and (min-width: 961px) {
+  .publications ol.bibliography li .abbr { transform-origin: 85% center; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .publications ol.bibliography li .abbr, .publications ol.bibliography li .abbr .teaser { transition: none; }
+}
