@@ -53,7 +53,7 @@ I am looking for Ph.D. positions starting in Fall 2028. Feel free to reach out b
   <li>
     <img class="entry-logo" src="./assets/img/logos/zju.png" alt="Zhejiang University" width="46" height="46" loading="lazy">
     <div class="entry-body">
-      <span class="entry-date">2022 – 2026</span>
+      <span class="entry-date">Sep. 2022 – Jun. 2026</span>
       <strong>Zhejiang University</strong><br>
       B.Eng. in Information Security, College of Computer Science
     </div>
