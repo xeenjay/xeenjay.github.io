@@ -1,6 +1,7 @@
 # Research projects shown on the homepage, newest first.
 # Fields (all optional except title):
-#   authors:     author list, with your own name in <strong></strong>
+#   authors:     author list, with your own name in <strong></strong>;
+#                names can link to homepages with <a href="...">Name</a>
 #   meta:        lab / advisor / role line
 #   date:        time period
 #   status:      e.g. "Under review"
@@ -15,14 +16,14 @@
 main:
 
   - title: "World Rerenderer: Real-Time Camera-Controlled World Re-rendering via Video Diffusion Transformers"
-    authors: Youcan Xu, <strong>Xinjie Huang</strong>, Jiaxin Shi, Hengye Lyu, Zhen Wang, Jun Xiao, Long Chen
+    authors: Youcan Xu, <strong>Xinjie Huang</strong>, Jiaxin Shi, Hengye Lyu, Zhen Wang, <a href="https://person.zju.edu.cn/en/junx">Jun Xiao</a>, <a href="https://zjuchenlong.github.io/">Long Chen</a>
     status: Under review
     badge: Under Review
     description: A streaming video world model that re-renders a live source video along user-controlled camera trajectories in real time, with long-horizon stability.
     image: ./assets/img/research/world-rerenderer.jpg
 
   - title: Task-Incremental Learning for 3D Point Clouds
-    meta: "Undergraduate thesis · Advisor: Prof. Jun Xiao, Zhejiang University"
+    meta: 'Undergraduate thesis · Advisor: <a href="https://person.zju.edu.cn/en/junx">Prof. Jun Xiao</a>, Zhejiang University'
     date: 2025 – 2026
     badge: B.Eng. Thesis
     description: Extended Point-In-Context to learn new point cloud tasks sequentially, using LoRA fine-tuning with output-level knowledge distillation.
@@ -30,13 +31,13 @@ main:
     image: ./assets/img/research/point-cloud-til.jpg
 
   - title: 3D Gaussian Representation Learning
-    meta: "Xie Lab, UC Irvine · Advisor: Prof. Xiaohui Xie · Mentor: Yuelin (Jackie) Xin"
-    date: Summer 2025
+    meta: 'Xie Lab, UC Irvine · Advisor: <a href="https://ics.uci.edu/~xhx/">Prof. Xiaohui Xie</a> · Mentor: Yuelin (Jackie) Xin'
+    date: Jun. 2025 – Sep. 2025
     description: Explored VAE-based 3D Gaussian representations, with preliminary experiments on point cloud completion using Gaussian embeddings and Point Transformer V3.
     image: ./assets/img/research/gaussian-representation.jpg
 
   - title: Spatial Audio Generation from 360° Video
-    meta: "CAD Lab, Zhejiang University · Advisor: Prof. Zhou Zhao"
+    meta: 'CAD Lab, Zhejiang University · Advisor: <a href="https://person.zju.edu.cn/zhaozhou">Prof. Zhou Zhao</a>'
     date: Apr. 2024 – Apr. 2025
     description: Reproduced experiments from prior work on generating spatial audio from 360° videos.
     image: ./assets/img/research/spatial-audio.jpg

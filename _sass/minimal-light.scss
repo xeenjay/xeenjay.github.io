@@ -486,7 +486,7 @@ footer {
 
   section {
     border:1px solid #e5e5e5;
-    border-width:1px 0;
+    border-width:1px 0 0;
     padding:20px 0;
     margin:0 0 20px;
   }
@@ -613,6 +613,19 @@ footer {
 .pronunciation {
   font-size: 0.95rem;
   color: #828282;
+}
+
+/* Inline SVG icons (see _includes/icons); they take the link's colour and font size. */
+.social-icons .icon {
+  width: 1em;
+  height: 1em;
+  fill: currentColor;
+  vertical-align: -0.125em;
+}
+
+/* The avatar has width/height attributes to reserve its space; keep it square when CSS sets the width. */
+.image.avatar img {
+  height: auto;
 }
 
 .social-icons .rednote-icon {

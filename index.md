@@ -4,9 +4,11 @@ layout: homepage
 
 ## About Me
 
-I am a first-year M.S.E. student in Computer Science at [Johns Hopkins University](https://www.jhu.edu/). Previously, I received my B.Eng. in Information Security from the College of Computer Science, [Zhejiang University](https://www.zju.edu.cn/english/), where I worked with Prof. Jun Xiao on novel-view video generation and 3D point cloud learning. In the summer of 2025, I joined the UCInspire Summer Program at [UC Irvine](https://uci.edu/), working with Prof. Xiaohui Xie on 3D Gaussian representations.
+I am a first-year M.S.E. student in Computer Science at [Johns Hopkins University](https://www.jhu.edu/). Previously, I received my B.Eng. in Information Security from the College of Computer Science, [Zhejiang University](https://www.zju.edu.cn/english/), where I worked with [Prof. Jun Xiao](https://person.zju.edu.cn/en/junx) on novel-view video generation and 3D point cloud learning. In the summer of 2025, I joined the UCInspire Summer Program at [UC Irvine](https://uci.edu/), working with [Prof. Xiaohui Xie](https://ics.uci.edu/~xhx/) on 3D Gaussian representations.
 
 **My goal is to build controllable video generation models that understand 3D structure, as a step toward interactive world models that help embodied agents predict and plan in the physical world.**
+
+I am looking for Ph.D. positions starting in Fall 2028. Feel free to reach out by email.
 
 ## Research Interests
 
@@ -20,7 +22,7 @@ I am a first-year M.S.E. student in Computer Science at [Johns Hopkins Universit
 
 <ul class="entry-list">
   <li>
-    <img class="entry-logo" src="./assets/img/logos/alibaba.png" alt="Alibaba Group">
+    <img class="entry-logo" src="./assets/img/logos/alibaba.png" alt="Alibaba Group" width="46" height="46" loading="lazy">
     <div class="entry-body">
       <span class="entry-date">Feb. 2026 – Jul. 2026</span>
       <strong>LLM Algorithm Engineer Intern</strong>, DingTalk, Alibaba Group<br>
@@ -33,7 +35,7 @@ I am a first-year M.S.E. student in Computer Science at [Johns Hopkins Universit
 
 <ul class="entry-list">
   <li>
-    <img class="entry-logo" src="./assets/img/logos/jhu.png" alt="Johns Hopkins University">
+    <img class="entry-logo" src="./assets/img/logos/jhu.png" alt="Johns Hopkins University" width="46" height="46" loading="lazy">
     <div class="entry-body">
       <span class="entry-date">Sep. 2026 – Present</span>
       <strong>Johns Hopkins University</strong>, Baltimore, MD<br>
@@ -41,7 +43,7 @@ I am a first-year M.S.E. student in Computer Science at [Johns Hopkins Universit
     </div>
   </li>
   <li>
-    <img class="entry-logo" src="./assets/img/logos/uci.png" alt="University of California, Irvine">
+    <img class="entry-logo" src="./assets/img/logos/uci.png" alt="University of California, Irvine" width="46" height="46" loading="lazy">
     <div class="entry-body">
       <span class="entry-date">Jun. 2025 – Sep. 2025</span>
       <strong>University of California, Irvine</strong><br>
@@ -49,7 +51,7 @@ I am a first-year M.S.E. student in Computer Science at [Johns Hopkins Universit
     </div>
   </li>
   <li>
-    <img class="entry-logo" src="./assets/img/logos/zju.png" alt="Zhejiang University">
+    <img class="entry-logo" src="./assets/img/logos/zju.png" alt="Zhejiang University" width="46" height="46" loading="lazy">
     <div class="entry-body">
       <span class="entry-date">2022 – 2026</span>
       <strong>Zhejiang University</strong><br>

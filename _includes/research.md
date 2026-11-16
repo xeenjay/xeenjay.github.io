@@ -13,7 +13,7 @@
       <source src="{{ link.video }}" type="video/mp4">
     </video>
     {% elsif link.image %}
-    <img src="{{ link.image }}" alt="{{ link.title }}" class="teaser img-fluid z-depth-1">
+    <img src="{{ link.image }}" alt="{{ link.title }}" class="teaser img-fluid z-depth-1" width="270" height="123" decoding="async"{% unless forloop.first %} loading="lazy"{% endunless %}>
     {% endif %}
     {% if link.badge %}{% if link.video or link.image %}
     <abbr class="badge">{{ link.badge }}</abbr>
